@@ -1,0 +1,54 @@
+<html> 
+    <head>
+        <title>Mochi the Turkey Sandwich</title>
+        <link rel="stylesheet" type="text/css" src="main.css">
+    </head>
+    
+    <body>
+
+            <header><h1>Mochi</h1></header>
+    <img src=" https://i.pinimg.com/564x/f9/cb/e9/f9cbe9566d6f932cbb51c280d0299a49.jpg">
+    <div id="div1"> 
+        <p> Hello, Mochi is delishious.</p> 
+    </div>
+
+    <div id=div2> 
+        <p> Mochi is icecream inside rice dough, it is from Japan.</p>
+    </div>
+
+    <p> Here is a Recipe! <a href="https://food52.com/recipes/61670-mochi-ice-cream">CLICK</a></p>
+    <br>
+    
+<aside> 
+    <nav>
+    <ul>
+        <li><a href="main.html">page 2</a> </li>
+        <li><a href="P3.html">page 3</a> </li>
+        <li><a href="P4.html">page 4</a></li>
+        </ul>
+    </nav>
+</aside>
+        
+<footer>Web by Pens</footer>
+        
+        <p id="demo"> Mochi </p>
+<button id= "MyButton"><p id="buttonTxt">EatMe</p></button>
+    </body>
+    <script>
+        var date= new Date();
+        var hour = date.getHours();
+        var mins = date.getMinutes();
+        var demo = document.getElementById("demo");
+        
+        demo.innerHTML= hour + ":" + mins; 
+        demo.style.textMargin = "10%"
+        
+        var button = document.getElementById("MyButton");
+        button.addEventListener("click", changeButton);
+        
+        function changeButton(){
+            document.getElementById("buttonTxt").innerHTML = "You Did it";
+        }
+    </script>
+    
+</html>

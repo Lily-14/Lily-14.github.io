@@ -1,0 +1,17 @@
+nav {
+    background-color:aliceblue;
+    color:black;
+}
+nav ul li{
+    background-color:azure;
+}
+nav ul li:hover {
+    background-color:beige;
+}
+#div1{background-color:antiquewhite;}
+#div2 {background-color:antiquewhite;}
+footer{text-align: center;
+    color: cadetblue;
+    background-color:beige;
+    float: right;
+}
